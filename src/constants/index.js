@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  microverse,
+  niit,
+  talksay,
   carrent,
   jobit,
   tripguide,
@@ -42,20 +41,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Electrical/Electronics Engineer",
+    icon: creator,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Software Developer",
+    icon: web,
+  },
+  {
+    title: "Art Enthusiast",
+    icon: mobile,
   },
 ];
 
@@ -116,24 +115,23 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Tester",
+    company_name: "Talksay",
+    icon: talksay,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "september 2021 - january 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my role as a Software Tester at TalkSay, I ensured the quality of our mobile and web applications by conducting comprehensive testing on iOS and Android platforms.", 
+      "I collaborated closely with developers and product managers to understand project goals and user expectations, developing detailed test plans and scenarios. Using manual and automated testing techniques, including tools like Selenium and Appium, I identified and documented software defects using Jira for efficient communication and resolution.",
+      "I also contributed to integrating testing processes into continuous integration pipelines to support agile development practices. ",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React.js Developer",
+    company_name: "NIIT Limited",
+    icon: niit,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2022 - May 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,28 +141,14 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Microverse",
+    icon: microverse,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "February 2023 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my experience as a Web Developer at Microverse, I gained proficiency in modern technologies and frameworks including React.js, Redux, Next.js for frontend development, and Node.js for backend development.",
+       "At Microverse, I collaborated with peers on projects, utilizing React.js and Redux to build interactive and responsive user interfaces. I implemented Next.js for server-side rendering and optimized performance.", 
+      "As part of our development process, I utilized testing frameworks for frontend code to ensure robust and bug-free applications. In addition, I worked on backend development using Node.js, building RESTful APIs and integrating with databases like MongoDB and PostgreSQL.",
     ],
   },
 ];
