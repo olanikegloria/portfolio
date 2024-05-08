@@ -156,56 +156,56 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but olly proved me wrong.",
+    name: "Asene Thierry",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://media.licdn.com/dms/image/D5603AQEzKaiOjc5c7A/profile-displayphoto-shrink_800_800/0/1678446927165?e=1720656000&v=beta&t=TALJ5nzNzoqP67CSwfFrkA-FzCTutg9Dr9wcSrVcTc4",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Olanike does.",
+    name: "TochiOkolie",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "Ticoniq",
+    image: "https://media.licdn.com/dms/image/D4D03AQHdQEmfFU-vHw/profile-displayphoto-shrink_800_800/0/1699653378874?e=1720656000&v=beta&t=YgT9x6Xz_ERAT42LFDe-V4qGTjufnEAKB7YbVPqvjSs",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Olanike optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Tajul Afreen",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://media.licdn.com/dms/image/D5603AQH-h_oZkXIVaw/profile-displayphoto-shrink_800_800/0/1706555837154?e=1720656000&v=beta&t=XNq_-pvRSaGG9ov8zzuliuDZFEPFKgVcI3wvkt3vPsQ",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Apple Catcher",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Experience the thrill of fruit-catching fun in this dynamic web game crafted using HTML, CSS, and JavaScript with the Phaser framework. Test your reflexes as you control a basket to catch falling apples while avoiding obstacles. With vibrant visuals and engaging gameplay, this project showcases my foray into game development using JavaScript and highlights my proficiency in web technologies",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css and HTML",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "phaser",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/olanikegloria/js-game",
   },
   {
-    name: "Job IT",
+    name: "Brainwave",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Elevate your digital experience with Brainwave, a cutting-edge React.js application meticulously crafted to embody modern UI/UX design principles. Powered by React.js and enhanced with Tailwind CSS, this sleek and responsive app sets a new standard for user interaction. Its fluid animations, intuitive layout, and seamless navigation redefine user engagement and latest web designs",
     tags: [
       {
         name: "react",
@@ -221,28 +221,28 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/olanikegloria/brainwave",
   },
   {
-    name: "Trip Guide",
+    name: "Realtime Chat App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Dive into seamless communication with our ChatApp, a real-time messaging platform engineered with Node.js, React.js, and Socket.IO. This dynamic trio of technologies powers instant messaging, enabling users to engage in live conversations effortlessly. With its intuitive interface and robust backend architecture, ChatApp delivers a frictionless user experience, fostering connections in real-time.",
     tags: [
       {
-        name: "nextjs",
+        name: "socket.io",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Node.js",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/olanikegloria/chat-app",
   },
 ];
 
